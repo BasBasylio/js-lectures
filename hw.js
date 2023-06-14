@@ -198,19 +198,19 @@ if (lastMetr == 1) {
     console.log(metrText)
 }      
 if (km % 1 === 0 && (lastKm >=5 || lastKm == 0) && lastKm !== 1) {
-    kmText = (km + ' метр' + endArr[1]);
+    kmText = (km + ' кілометр' + endArr[1]);
     console.log(kmText);
 } 
 if ((km % 1 === 0 && lastKm in[2,3,4]) && lastKm !== 1) {
-    kmText = (km + ' метр' + endArr[2]);
+    kmText = (km + ' кілометр' + endArr[2]);
     console.log(kmText);
 }    
 if ((km % 1 !== 0 || lastKm ==1) && lastKm !== 1) {
-    kmText = (km + ' метр' + endArr[0]);
+    kmText = (km + ' кілометр' + endArr[0]);
     console.log(kmText); 
 }
 if (lastKm == 1) {
-    kmText = (km + ' метр');
+    kmText = (km + ' кілометр');
     console.log(kmText)
 }
 console.log(metrText + ' це ' + kmText)
